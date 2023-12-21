@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .gifs {
+
+    margin:  50px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gif {
+    padding: 0 2px;
+    border-color: rgb(212, 212, 212);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem;
+    box-shadow: 1em 1em 1em .5em rgb(151, 151, 151); 
+  }
+  
+  .loader {
+    color: blue;
+  }
+
+  .btn{
+    color: white;
+    background-color: red;
+  }
